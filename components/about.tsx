@@ -20,13 +20,14 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
         {" "}
-        Currently studying at <span className="font-medium">42 School</span>, I
-        am passionate about{" "}
+        Currently studying at {" "}
+        <span className="font-medium">42 School Paris and </span>
+        {" "} passionate about{" "}
         <span className="font-medium">artificial intelligence</span>. I have
-        acquired a{" "}
+        acquired a {" "}
         <span className="font-medium">strong foundation in programming</span>,
         particularly in <span className="font-medium">Python</span>.{" "}
-        <span className="font-medium">I particularly enjoy</span> working on projects
+        <span>I particularly enjoy</span> working on projects
         that implement{" "}
         <span className="font-medium">machine learning algorithms</span> such as
         linear regression and natural language processing. My technical stack
@@ -43,8 +44,8 @@ export default function About() {
         artificial intelligence and data science. I regularly participate in{" "}
         <span className="font-medium">hackathons and coding challenges</span> to
         strengthen my skills. <br></br>
-          I am currently looking for an <span className="font-medium">internship</span> in
-        machine learning to deepen my knowledge.{" "}
+          and I am currently looking for an <span className="font-medium">internship</span> in
+        <span className="font-medium"> machine learning</span> to deepen my knowledge.{" "}
       </p>
     </motion.section>
   );

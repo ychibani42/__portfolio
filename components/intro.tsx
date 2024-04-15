@@ -33,8 +33,8 @@ export default function Intro() {
             <Image
               src="/yassine_pic.png"
               alt="Yassine portrait"
-              width="192"
-              height="192"
+              width="200"
+              height="200"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
@@ -61,11 +61,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Yassine.</span> I'm a{" "}
-        <span className="font-bold">machine learning engineer</span> {" "} seeking an internship in AI. I'm{" "}
-        <span className="font-bold">ready to join your team</span>. I enjoy
-        building <span className="bold">and learning about AI</span>. My focus are{" "}
-        <span className="font-bold">Numpy and panda</span>.
+        <span className="font-bold">Machine learning engineer</span> {" "} seeking an internship in AI.{" "}
+        <span className="font-bold">ready to join your team, </span> to{" "}
+        <span className="font-bold">build</span> and <span className="font-bold"> learn about AI</span>. Strong affinity on several technologies such as{" "}
+        <span className="font-bold">Numpy, Panda and more</span>.
       </motion.h1>
 
       <motion.div
@@ -90,13 +89,14 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-105 transition cursor-pointer borderBlack hover:bg-gray-50"
-          href="/CV.pdf"
-          download
-        >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          href="/CV.pdf" target="_blank">
+          Resume{" "}
         </a>
-
+        <a
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-105 transition cursor-pointer borderBlack hover:bg-gray-50"
+          href="/LettreMotivation.pdf" target="_blank">
+          Cover Letter{" "}
+        </a>
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/ychibani42/"
