@@ -88,7 +88,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-105 transition cursor-pointer borderBlack hover:bg-gray-50"
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-105 transition cursor-pointer borderBlack hover:bg-gray-50"
           href="/CV.pdf" target="_blank">
           Resume{" "}
         </a>
